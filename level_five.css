@@ -1,10 +1,12 @@
 .container {
   display: grid;
   /* Style rows and columns */
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 1fr 1fr 7fr 1fr;
 }
 
 #title {
-  grid-column: /*this should span the entire page, look into using negative numbers in grid-column-end*/;
+  grid-column: auto/*this should span the entire page, look into using negative numbers in grid-column-end*/;
 }
 
 .friend {
